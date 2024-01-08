@@ -14,7 +14,7 @@ Step 3: Edit the Environment File
 Check a file named .env in the /backend directory.
 This file will store environment variables for the project to run.
 
-# 1278348
+
 STREAM_APP_ID = 
 
 STREAM_API_KEY =
@@ -36,21 +36,21 @@ the following command to install the backend dependencies:
 npm install
 This command will install all the required packages specified in the package.json file.
 
-Step 6: Run Backend
+Step 5: Run Backend
 While still in the /backend directory of the project, execute the following command to run the setup script:
 
 npm start
 
 It should start on localhost:5000
 
-Step 8: Install Frontend Dependencies
+Step 6: Install Frontend Dependencies
 Open a new terminal window , and run the following command to install the frontend dependencies:
 
 cd frontend
 
 npm install
 
-Step 9: Run the Frontend Server
+Step 7: Run the Frontend Server
 After installing the frontend dependencies, run the following command in the same terminal to start the frontend server:
 
 npm start
